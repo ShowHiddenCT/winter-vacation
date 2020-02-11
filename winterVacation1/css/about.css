@@ -1,0 +1,331 @@
+body{
+    height: 100%;
+}
+#about{
+    display: none;
+    height: 100%;
+    position: relative;
+    min-width: 650px;
+    min-height: 100vh;
+    overflow: hidden;
+    background: url(../images/about_background.jpg)no-repeat;
+    background-size: 100% 100%;
+}
+.relvent{
+    position: relative;
+    height: 100vh;
+    width: 93px;
+    float: left;
+}
+.about_child{
+    position: absolute;
+    height: 100%;
+    left: 93px;
+    display: flex;
+    justify-content: flex-start;
+}
+.addtext{
+    background: url(../images/about_text.png)no-repeat;
+    position: absolute;
+    top: 70px;
+    left: 150px;
+    width: 600px;
+    height: 80px;
+}
+.about_child_one{
+    position: relative;
+    height: 100%;
+    float: left;
+   
+}
+.about_child_two{
+    position: relative;
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+.about_child_three{
+    position: relative;
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+.about_child_four{
+    position: relative;
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+
+
+
+.shadeone{
+    position: absolute; 
+    height: 100%; 
+    background-color: #f39e38;
+    width: 100%;
+    margin-top: 90%;
+}
+.about_child_one_one{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+.about_child_one_two{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background: url(../images/about_one.png)no-repeat;
+    background-size: 100%;
+}
+
+
+
+.shadetwo{
+    position: absolute; 
+    height: 100%; 
+    background-color: #eb6b64;
+    width: 100%;
+    margin-top: 90%;
+}
+.about_child_two_one{
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    bottom: 0;     
+} 
+.about_child_two_two{
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    bottom: 0;
+    background: url(../images/about_two.png)no-repeat;
+    background-size: 100%;   
+}
+
+
+
+
+.shadethree{
+    position: absolute; 
+    height: 100%; 
+    background-color: #71bde4;
+    width: 100%;
+    margin-top: 90%;
+}
+.about_child_three_one{
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    bottom: 0;
+}
+.about_child_three_two{
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    bottom: 0;
+    background: url(../images/about_three.png)no-repeat;
+    background-size: 100%;
+}
+
+
+
+.shadefour{
+    position: absolute; 
+    height: 100%; 
+    background-color: #81c043;
+    width: 100%;
+    margin-top: 90%;
+    opacity: 0.9;
+}
+.about_child_four_one{
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    bottom: 0;
+}
+.about_child_four_two{
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    bottom: 0;
+    background: url(../images/about_four.png)no-repeat;
+    background-size: 100%;
+}
+
+
+
+#chanbackgroundone,#chanbackgroundtwo,#chanbackgroundthree,#chanbackgroundfour{
+    position: absolute;
+    bottom:10px;
+    margin-left: -40px;
+    left: 50%;
+    width: 80px;
+    height: 35px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color:white;
+    text-align: center;
+    line-height: 35px;
+    color:white;
+}
+#chanbackgroundone_two{
+    position: absolute;
+    bottom:10px;
+    margin-left: -40px;
+    left: 50%;
+    width: 80px;
+    height: 35px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color:white;
+    text-align: center;
+    line-height: 35px;
+    background-color:white;
+    color: #f39e38;
+    
+}
+#chanbackgroundtwo_two{
+    position: absolute;
+    bottom:10px;
+    margin-left: -40px;
+    left: 50%;
+    width: 80px;
+    height: 35px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color:white;
+    text-align: center;
+    line-height: 35px;
+    background-color:white;
+    color: #eb6b64;
+    
+}
+#chanbackgroundthree_two{
+    position: absolute;
+    bottom:10px;
+    margin-left: -40px;
+    left: 50%;
+    width: 80px;
+    height: 35px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color:white;
+    text-align: center;
+    line-height: 35px;
+    background-color:white;
+    color: #71bde4;
+     
+}
+#chanbackgroundfour_two{
+    position: absolute;
+    bottom:10px;
+    margin-left: -40px;
+    left: 50%;
+    width: 80px;
+    height: 35px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color:white;
+    text-align: center;
+    line-height: 35px;
+    background-color:white;
+    color: #81c043;
+     
+}
+.menuli_oneb_p{
+    width: 40px; 
+    background: url(../images/雪碧图4.png);
+    height: 18px;
+}
+.menuli_oneb_one{
+    background-position: -30px 3px !important;
+}
+.menuli_oneb_two{
+    background-position: -30px -72px !important;
+}
+
+.menuli_twob_p{
+    width: 60px; 
+    background: url(../images/雪碧图4.png);
+    height: 16px;
+}
+.menuli_twob_one{
+    background-position: -18px -12px !important;
+}
+.menuli_twob_two{
+    background-position: -18px -87px !important;
+}
+
+.menuli_threeb_p{
+    width: 64px; 
+    background: url(../images/雪碧图4.png);
+    height: 16px;
+}
+.menuli_threeb_one{
+    background-position: -18px -28px !important;
+}
+.menuli_threeb_two{
+    background-position: -18px -103px !important;
+}
+
+.menuli_fourb_p{
+    width: 64px; 
+    background: url(../images/雪碧图4.png);
+    height: 16px;
+}
+.menuli_fourb_one{
+    background-position: -18px -43px !important;
+}
+.menuli_fourb_two{
+    background-position: -18px -118px !important;
+}
+
+
+.menuli_fiveb_p{
+    width: 64px; 
+    background: url(../images/雪碧图4.png);
+    height: 16px;
+}
+.menuli_fiveb_one{
+    background-position: -18px -59px !important;
+}
+.menuli_fiveb_two{
+    background-position: -18px -134px !important;
+}
+
+
+
+.menuli_sixb_p{
+    width: 80px; 
+    background: url(../images/雪碧图4.png);
+    height: 16px;
+}
+.menuli_sixb_one{
+    background-position: -9px -154px !important;
+}
+.menuli_sixb_two{
+    background-position: -9px -170px !important;
+}
+#footall{
+    position: relative;
+    width: 100%;
+    display: none;
+}
+.footchild{
+    position: absolute;
+    width: calc( 100% - 93px );
+    margin-left: 93px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    background: url(../images/pagefoot.jpg)no-repeat;
+    background-size: 100% 100%;
+}
+#changrey{
+    width: 100vw;
+    height: 100vh;
+    background:rgba(174, 174, 174, 0.3);
+    position: absolute;
+}

@@ -1,0 +1,36 @@
+#development{
+    position: relative;
+    width:100%;
+    height: 100vh;
+    display: none;
+}
+.development_layout{
+    display: flex;
+    width: 100%;
+    position: absolute;
+    justify-content: flex-start;
+    height: 100vh;
+}
+.samewh{
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    box-shadow: -6px 0px 5px -5px #666;
+}
+.samewh>img{
+    position: absolute;
+    height: 100vh;
+    widows: 60vw; 
+}
+.half_water{
+    position: absolute;
+    width: 300px;
+    height: 500px;
+    background-size: 100% 100%;
+    right: -135px;
+    bottom: 0;
+}
+.style_one{background: url(../images/development_1-1.png);}
+.style_two{background: url(../images/development_2-1.png);}
+.style_three{background: url(../images/development_3-1.png);}
+.style_four{background: url(../images/development_4-1.jpg);}

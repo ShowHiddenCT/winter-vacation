@@ -1,0 +1,151 @@
+#notice{
+    position: relative;
+    width: 100%;
+    height: calc( 120vh + 70px );
+    display: none;
+}
+.notice_one{
+    position: absolute;
+    width: 100%;
+    height: 60vh;
+    background: url(../images/notice-one.png) no-repeat;
+    background-size: 100% 100% ;
+}
+.notice_two{
+    position: absolute;
+    bottom: 70px;
+    width: 100%;
+    height: 60vh;
+    background: #f8f7f3;
+    display: flex;
+    justify-content:center;
+}
+.notice_all_a{
+    position: absolute;
+    height: calc( 60vh - 40px );
+    width: 100%;
+    display: flex;
+    justify-content:flex-start;
+    bottom: 0em;
+}
+#notice_two_a{
+    width: 40vw;
+    height: calc( 60vh - 40px );
+    margin-left: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+}
+.notice_two_b{
+    height: calc( 60vh - 40px );
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+}
+.notice_two>h2{
+   width: 30%;
+   position: absolute;
+   height: 40px;
+   line-height: 40px;
+    left: 120px;
+}
+.notice_sametype_a,.notice_two_b>p{
+    width: auto;
+    height: auto;
+    font-size: .8em;
+    color: black;
+    line-height: 3;
+} 
+.same_span{
+    border-bottom-style:solid;
+    border-bottom-width: 1px;
+    border-bottom-color: transparent;
+}
+.hover_span{
+    border-bottom-color: black !important;
+}
+.notice_three{
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    background: #f8f7f3;
+    bottom: 0;
+}
+#left_arrow{
+    width: 20px;
+    height: 40px;
+    position: absolute;
+    left: 25%;
+    border-radius:0 20px 20px  0;
+    z-index: 1;
+    background: white;
+}
+.back_arrow_one{
+    background: url(../images/notice_three\(雪碧图\).png) no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: -3px -40px;
+}
+.back_arrow_one_b{
+    background: url(../images/notice_three\(雪碧图\).png) no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: -3px 0;
+}
+.back_arrow_two{
+    background: url(../images/notice_three\(雪碧图\).png) no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: -23px 0px;
+}
+.back_arrow_two_b{
+    background: url(../images/notice_three\(雪碧图\).png) no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: -23px -40px;
+}
+#over_hidden{
+    width: 350px;
+    height: 40px;
+    position: absolute;
+    background-color: #f1f0ea;
+    left: 25%;
+    overflow: hidden;
+    z-index: 0; 
+   
+}
+.margin_left{
+     display: flex;
+    justify-content: flex-start;
+    width: 280px;
+    height: 40px;
+    margin-left: 20px;
+}
+.margin_left>p{
+    margin: 10px 10px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    color: black;
+    z-index: 2;
+}
+.white_text{
+    color: white !important;
+    background: green;
+    border-radius: 10px;
+}
+#right_arrow{
+    width: 20px;
+    height: 40px;
+    position: absolute;
+    left: calc( 25% + 330px );
+    border-radius: 20px 0 0 20px;
+    z-index: 1;
+    background:white; 
+}
