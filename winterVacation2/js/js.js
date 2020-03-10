@@ -6,77 +6,77 @@ window.onload = function () {
         for (var j=0; j<=4 ; j++) {
             var div = document.createElement("div");
             div.style.top = 10 + "px" ;
-            div.style.left = 50 + j * 30 + "px" ;
+            div.style.left = 50 + j * 40 + "px" ;
             game.appendChild(div);
 
             var div2 = document.createElement("div");
-            div2.style.top = 85 + "px" ;
-            div2.style.left = 50 + j * 30 + "px" ;
+            div2.style.top = 110 + "px" ;
+            div2.style.left = 50 + j * 40 + "px" ;
             game.appendChild(div2);
 
             var div3 = document.createElement("div");
-            div3.style.top = 160 + "px" ;
-            div3.style.left = 50 + j * 30 + "px" ;
+            div3.style.top = 210 + "px" ;
+            div3.style.left = 50 + j * 40 + "px" ;
             game.appendChild(div3);
 
             var div7 = document.createElement("div");
             div7.style.top = 10 + "px" ;
-            div7.style.left =300 + 50 + j * 30 + "px" ;
+            div7.style.left =300 + 50 + j * 40 + "px" ;
             game.appendChild(div7);
 
             var div8 = document.createElement("div");
-            div8.style.top = 85 + "px" ;
-            div8.style.left = 300 + 50 + j * 30 + "px" ;
+            div8.style.top = 110 + "px" ;
+            div8.style.left = 300 + 50 + j * 40 + "px" ;
             game.appendChild(div8);
 
             var div9 = document.createElement("div");
-            div9.style.top = 160 + "px" ;
-            div9.style.left =300 + 50 + j * 30 + "px" ;
+            div9.style.top = 210 + "px" ;
+            div9.style.left =300 + 50 + j * 40 + "px" ;
             game.appendChild(div9);
             if (j != 4) {
                 var div4 = document.createElement("div");
-                div4.style.top = 10 + (j+1) * 15 +"px";
+                div4.style.top = 10 + (j+1) * 20 +"px";
                 div4.style.left = 50 + "px";
                 game.appendChild(div4);
 
                 var div5 = document.createElement("div");
-                div5.style.top = 85 + (j+1) * 15 +"px";
-                div5.style.left = 170 + "px";
+                div5.style.top = 110 + (j+1) * 20 +"px";
+                div5.style.left = 210 + "px";
                 game.appendChild(div5);
 
                 var div10 = document.createElement("div");
-                div10.style.top = 10 + (j+1) * 15 +"px";
+                div10.style.top = 10 + (j+1) * 20 +"px";
                 div10.style.left = 300 + 50 + "px";
                 game.appendChild(div10);
 
                 var div11 = document.createElement("div");
-                div11.style.top = 85 + (j+1) * 15 +"px";
-                div11.style.left =300 + 170 + "px";
+                div11.style.top = 110 + (j+1) * 20 +"px";
+                div11.style.left =300 + 210 + "px";
                 game.appendChild(div11);
             }
         }
         for (var h=1;h<=3;h++) {
             for (var d=1 ;d<=h;d++) {
                 var div11 = document.createElement("div");
-                div11.style.left = 270 - (h-1)*15 + (d-1)*30 +"px";
-                div11.style.top = 180 + h*15 + "px";
+                div11.style.left = 270 - (h-1)*25 + (d-1)*50 +"px";
+                div11.style.top = 220 + h*20 + "px";
                 game.appendChild(div11);
 
                 var div12 = document.createElement("div");
-                div12.style.left = 100 - (h-1)*15 + (d-1)*30 + "px" ;
-                div12.style.top = 220 + h*15 + "px" ;
+                div12.style.left = 100 - (h-1)*25 + (d-1)*50 + "px" ;
+                div12.style.top = 240 + h*20 + "px" ;
                 game.appendChild(div12);
 
                 var div13 = document.createElement("div");
-                div13.style.left = 440 - (h-1)*15 + (d-1)*30 + "px" ;
-                div13.style.top = 220 + h*15 + "px" ;
+                div13.style.left = 440 - (h-1)*25 + (d-1)*50 + "px" ;
+                div13.style.top = 240 + h*20 + "px" ;
                 game.appendChild(div13);
             }
         }
 
         for (var i=0 ; i<=10 ;i++) {
             var div6 = document.createElement("div");
-            div6.style.top = 10 + i*15 + "px" ;
+            div6.style.top = 10 + i*20 + "px" ;
             div6.style.left = 270 + "px" ;
             game.appendChild(div6);
 
@@ -271,13 +271,13 @@ window.onload = function () {
                     if (i==numberOne) {
                         judgeOne++ ;
                         if (judgeOne == 1) {
-                            allDiv[i].style.backgroundColor = "rgb(107, 107, 107)";
+                            allDiv[numberOne].style.backgroundColor = "rgb(107, 107, 107)";
                         }
                         else if (judgeOne ==2) {
-                            allDiv[i].style.backgroundColor = "rgb(214, 219, 214)";
+                            allDiv[numberOne].style.backgroundColor = "rgb(214, 219, 214)";
                         }
                         else if (judgeOne == 3) {
-                            allDiv[i].style.display = "none" ;
+                            allDiv[numberOne].style.display = "none" ;
                             over++ ;
                             bandiv.style.width = 70 + "px" ;
                             
@@ -290,13 +290,13 @@ window.onload = function () {
                     else if ( i == numberTwo ) {
                         judgeTwo++ ;
                         if (judgeTwo == 1) {
-                            allDiv[i].style.backgroundColor = "rgb(107, 107, 107)";
+                            allDiv[numberTwo].style.backgroundColor = "rgb(107, 107, 107)";
                         }
                         else if (judgeTwo ==2) {
-                            allDiv[i].style.backgroundColor = "rgb(214, 219, 214)";
+                            allDiv[numberTwo].style.backgroundColor = "rgb(214, 219, 214)";
                         }
                         else if (judgeTwo == 3) {
-                            allDiv[i].style.display = "none" ;
+                            allDiv[numberTwo].style.display = "none" ;
                             over++ ;
                             bandiv.style.width = 30 + "px" ;
                             setTimeout(function () {
@@ -307,13 +307,13 @@ window.onload = function () {
                     else if (i == numberThree) {
                         judgeThree++ ;
                         if (judgeThree == 1) {
-                            allDiv[i].style.backgroundColor = "rgb(107, 107, 107)";
+                            allDiv[numberThree].style.backgroundColor = "rgb(107, 107, 107)";
                         }
                         else if (judgeThree ==2) {
-                            allDiv[i].style.backgroundColor = "rgb(214, 219, 214)";
+                            allDiv[numberThree].style.backgroundColor = "rgb(214, 219, 214)";
                         }
                         else if (judgeThree == 3) {
-                            allDiv[i].style.display = "none" ;
+                            allDiv[numberThree].style.display = "none" ;
                             over++ ;
                             bandiv.style.width = 100 + "px" ;
                             setTimeout(function () {
